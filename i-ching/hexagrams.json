@@ -1,0 +1,386 @@
+[
+  {
+    "key": "qián",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_1",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Iching-hexagram-01.svg",
+    "character": "乾"
+  },
+  {
+    "key": "kūn",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_2",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Iching-hexagram-02.svg",
+    "character": "坤"
+  },
+  {
+    "key": "zhūn",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_3",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Iching-hexagram-03.svg",
+    "character": "屯"
+  },
+  {
+    "key": "méng",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_4",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Iching-hexagram-04.svg",
+    "character": "蒙"
+  },
+  {
+    "key": "xū",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_5",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Iching-hexagram-05.svg",
+    "character": "需"
+  },
+  {
+    "key": "sòng",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_6",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Iching-hexagram-06.svg",
+    "character": "訟"
+  },
+  {
+    "key": "shī",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_7",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Iching-hexagram-07.svg",
+    "character": "師"
+  },
+  {
+    "key": "bǐ",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_8",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Iching-hexagram-08.svg",
+    "character": "比"
+  },
+  {
+    "key": "xiǎo-chù",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_9",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Iching-hexagram-09.svg",
+    "character": "小畜"
+  },
+  {
+    "key": "lǚ",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_10",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Iching-hexagram-10.svg",
+    "character": "履"
+  },
+  {
+    "key": "tài",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_11",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/Iching-hexagram-11.svg",
+    "character": "泰"
+  },
+  {
+    "key": "pǐ",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_12",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Iching-hexagram-12.svg",
+    "character": "否"
+  },
+  {
+    "key": "tóng-rén",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_13",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Iching-hexagram-13.svg",
+    "character": "同人"
+  },
+  {
+    "key": "dà-yǒu",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_14",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Iching-hexagram-14.svg",
+    "character": "大有"
+  },
+  {
+    "key": "qiān",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_15",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Iching-hexagram-15.svg",
+    "character": "謙"
+  },
+  {
+    "key": "yù",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_16",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Iching-hexagram-16.svg",
+    "character": "豫"
+  },
+  {
+    "key": "suí",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_17",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/27/Iching-hexagram-17.svg",
+    "character": "隨"
+  },
+  {
+    "key": "gŭ",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_18",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Iching-hexagram-18.svg",
+    "character": "蠱"
+  },
+  {
+    "key": "lín",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_19",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/40/Iching-hexagram-19.svg",
+    "character": "臨"
+  },
+  {
+    "key": "guān",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_20",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Iching-hexagram-20.svg",
+    "character": "觀"
+  },
+  {
+    "key": "shì-kè",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_21",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Iching-hexagram-21.svg",
+    "character": "噬嗑"
+  },
+  {
+    "key": "bì",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_22",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Iching-hexagram-22.svg",
+    "character": "賁"
+  },
+  {
+    "key": "bō",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_23",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Iching-hexagram-23.svg",
+    "character": "剝"
+  },
+  {
+    "key": "fù",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_24",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Iching-hexagram-24.svg",
+    "character": "復"
+  },
+  {
+    "key": "wú-wàng",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_25",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/85/Iching-hexagram-25.svg",
+    "character": "無妄"
+  },
+  {
+    "key": "dà-chù",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_26",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/31/Iching-hexagram-26.svg",
+    "character": "大畜"
+  },
+  {
+    "key": "yí",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_27",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Iching-hexagram-27.svg",
+    "character": "頤"
+  },
+  {
+    "key": "dà-guò",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_28",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Iching-hexagram-28.svg",
+    "character": "大過"
+  },
+  {
+    "key": "kǎn",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_29",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Iching-hexagram-29.svg",
+    "character": "坎"
+  },
+  {
+    "key": "lí",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_30",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Iching-hexagram-30.svg",
+    "character": "離"
+  },
+  {
+    "key": "xián",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_31",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Iching-hexagram-31.svg",
+    "character": "咸"
+  },
+  {
+    "key": "héng",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_32",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Iching-hexagram-32.svg",
+    "character": "恆"
+  },
+  {
+    "key": "dùn",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_33",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Iching-hexagram-33.svg",
+    "character": "遯"
+  },
+  {
+    "key": "dà-zhuàng",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_34",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Iching-hexagram-34.svg",
+    "character": "大壯"
+  },
+  {
+    "key": "jìn",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_35",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Iching-hexagram-35.svg",
+    "character": "晉"
+  },
+  {
+    "key": "míng-yí",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_36",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Iching-hexagram-36.svg",
+    "character": "明夷"
+  },
+  {
+    "key": "jiā-rén",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_37",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/Iching-hexagram-37.svg",
+    "character": "家人"
+  },
+  {
+    "key": "kuí",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_38",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/Iching-hexagram-38.svg",
+    "character": "睽"
+  },
+  {
+    "key": "jiǎn",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_39",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Iching-hexagram-39.svg",
+    "character": "蹇"
+  },
+  {
+    "key": "xiè",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_40",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/55/Iching-hexagram-40.svg",
+    "character": "解"
+  },
+  {
+    "key": "sǔn",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_41",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Iching-hexagram-41.svg",
+    "character": "損"
+  },
+  {
+    "key": "yì",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_42",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Iching-hexagram-42.svg",
+    "character": "益"
+  },
+  {
+    "key": "guài",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_43",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Iching-hexagram-43.svg",
+    "character": "夬"
+  },
+  {
+    "key": "gòu",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_44",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Iching-hexagram-44.svg",
+    "character": "姤"
+  },
+  {
+    "key": "cuì",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_45",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Iching-hexagram-45.svg",
+    "character": "萃"
+  },
+  {
+    "key": "shēng",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_46",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Iching-hexagram-46.svg",
+    "character": "升"
+  },
+  {
+    "key": "kùn",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_47",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Iching-hexagram-47.svg",
+    "character": "困"
+  },
+  {
+    "key": "jǐng",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_48",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Iching-hexagram-48.svg",
+    "character": "井"
+  },
+  {
+    "key": "gé",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_49",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/97/Iching-hexagram-49.svg",
+    "character": "革"
+  },
+  {
+    "key": "dǐng",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_50",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Iching-hexagram-50.svg",
+    "character": "鼎"
+  },
+  {
+    "key": "zhèn",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_51",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Iching-hexagram-51.svg",
+    "character": "震"
+  },
+  {
+    "key": "gèn",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_52",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Iching-hexagram-52.svg",
+    "character": "艮"
+  },
+  {
+    "key": "jiàn",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_53",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/38/Iching-hexagram-53.svg",
+    "character": "漸"
+  },
+  {
+    "key": "guī-mèi",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_54",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Iching-hexagram-54.svg",
+    "character": "歸妹"
+  },
+  {
+    "key": "fēng",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_55",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Iching-hexagram-55.svg",
+    "character": "豐"
+  },
+  {
+    "key": "lǚ",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_56",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Iching-hexagram-56.svg",
+    "character": "旅"
+  },
+  {
+    "key": "xùn",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_57",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/Iching-hexagram-57.svg",
+    "character": "巽"
+  },
+  {
+    "key": "duì",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_58",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Iching-hexagram-58.svg",
+    "character": "兌"
+  },
+  {
+    "key": "huàn",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_59",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Iching-hexagram-59.svg",
+    "character": "渙"
+  },
+  {
+    "key": "jié",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_60",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Iching-hexagram-60.svg",
+    "character": "節"
+  },
+  {
+    "key": "zhōng-fú",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_61",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Iching-hexagram-61.svg",
+    "character": "中孚"
+  },
+  {
+    "key": "xiǎo-guò",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_62",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/54/Iching-hexagram-62.svg",
+    "character": "小過"
+  },
+  {
+    "key": "jì-jì",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_63",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Iching-hexagram-63.svg",
+    "character": "既濟"
+  },
+  {
+    "key": "wèi-jì",
+    "url": "https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_64",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/77/Iching-hexagram-64.svg",
+    "character": "未濟"
+  }
+]
