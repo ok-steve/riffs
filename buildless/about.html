@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Buildless Site</title>
+    <meta
+      name="description"
+      content="An about page in a buildless demo site."
+    />
+    <link rel="stylesheet" href="buildless.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "html-element-include": "https://cdn.jsdelivr.net/npm/html-include-element@0.3.0/html-include-element.min.js"
+        }
+      }
+    </script>
+    <script type="module" src="buildless.js"></script>
+  </head>
+  <body class="container-fluid">
+    <html-include no-shadow src="_includes/header.html"></html-include>
+    <html-include no-shadow src="_includes/navigation.html"></html-include>
+    <main role="main">
+      <h1>About</h1>
+      <p>This is an about page.</p>
+    </main>
+    <html-include no-shadow src="_includes/footer.html"></html-include>
+  </body>
+</html>

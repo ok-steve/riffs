@@ -1,0 +1,15 @@
+@import url("https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css");
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
