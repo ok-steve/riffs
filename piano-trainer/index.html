@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piano Trainer</title>
+    <link
+      rel="stylesheet"
+      href="https://stevecherry.net/normcore/css/normcore.css"
+    />
+    <link rel="stylesheet" href="piano-trainer.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "preact": "https://esm.sh/preact",
+          "preact/": "https://esm.sh/preact/",
+          "htm": "https://esm.sh/htm",
+          "abcjs": "https://esm.sh/abcjs",
+          "nexusui": "https://esm.sh/nexusui"
+        }
+      }
+    </script>
+    <script type="module" src="piano-trainer.js"></script>
+  </head>
+  <body>
+    <div id="app" class="center cover" role="application"></div>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+.center {
+  --center-size: 900px;
+}
+
+button {
+  display: block;
+  margin-inline: auto;
+}
+
+.abcjs-rest {
+  display: none;
+}
+
+.piano-roll {
+  align-self: center;
+}
+
+.result {
+  color: white;
+  padding: 0.5rlh;
+  text-align: center;
+}
+
+.is-correct {
+  background-color: green;
+}
+
+.is-incorrect {
+  background-color: red;
+}
