@@ -8,9 +8,9 @@ export default function PianoRoll({ onChange }) {
   useEffect(() => {
     if (ref.current) {
       const piano = new Nexus.Piano(ref.current, {
-        size: [900, 125],
-        lowNote: 21,
-        highNote: 108,
+        size: [500, 125],
+        lowNote: 48,
+        highNote: 72,
       });
 
       piano.on("change", ({ note, state }) => {

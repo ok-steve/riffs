@@ -22,9 +22,9 @@ button {
 }
 
 .is-correct {
-  background-color: green;
+  --toast-background: green;
 }
 
 .is-incorrect {
-  background-color: red;
+  --toast-background: red;
 }
