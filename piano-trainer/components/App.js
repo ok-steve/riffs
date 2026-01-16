@@ -6,7 +6,7 @@ import Result from "./Result.js";
 
 export default function App() {
   const [options, setOptions] = useState([
-    48, 50, 52, 53, 55, 60, 62, 64, 65, 67,
+    43, 48, 50, 52, 53, 55, 57, 60, 62, 64, 65, 67, 71, 74, 77,
   ]);
   const [note, setNote] = useState(pick(options));
   const [guess, setGuess] = useState(null);
