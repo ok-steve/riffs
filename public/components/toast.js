@@ -104,11 +104,15 @@ class ToastElement extends HTMLElement {
     return this.getAttribute("form");
   }
 
+  get timeout() {
+    return +this.getAttribute("timeout") || 3000;
+  }
+
   /**
    * Methods
    */
 
-  open(message, timeout = 5000) {
+  open(message) {
     if (!message) return;
     clearTimeout(this._timer);
     this.#focused = document.activeElement;
@@ -118,7 +122,7 @@ class ToastElement extends HTMLElement {
 
     this._timer = setTimeout(() => {
       this.close();
-    }, timeout);
+    }, this.timeout);
   }
 
   close() {
