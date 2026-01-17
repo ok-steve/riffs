@@ -2,8 +2,7 @@
   --center-size: 900px;
 }
 
-button {
-  display: block;
+.mx-auto {
   margin-inline: auto;
 }
 

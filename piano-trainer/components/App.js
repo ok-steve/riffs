@@ -1,7 +1,7 @@
 import { useState } from "preact/hooks";
 import { html, pick } from "../utils.js";
 import Note from "./Note.js";
-import PianoRoll from "./PianoRoll.js";
+import Guess from "./Guess.js";
 import Result from "./Result.js";
 
 export default function App() {
@@ -27,7 +27,7 @@ export default function App() {
       <${Note} number=${guess} />
     <//>
     <${Result} answer=${note} guess=${guess} />
-    <button onClick=${updateNote}>New Note<//>
-    <${PianoRoll} onChange=${updateGuess} />
+    <button class="mx-auto" onClick=${updateNote}>New Note<//>
+    <${Guess} answer=${note} onChange=${updateGuess} />
   `;
 }
