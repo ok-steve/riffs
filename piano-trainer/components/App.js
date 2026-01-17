@@ -15,6 +15,7 @@ export default function App() {
     setNote(pick(options));
     setGuess(null);
   };
+
   const updateGuess = (value) => {
     if (value && value !== guess) {
       setGuess(value);
