@@ -9,7 +9,7 @@ export default function PianoRoll({ onChange }) {
     if (ref.current) {
       const piano = new Nexus.Piano(ref.current, {
         size: [500, 125],
-        lowNote: 48,
+        lowNote: 36,
         highNote: 72,
       });
 
