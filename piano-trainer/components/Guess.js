@@ -1,23 +1,32 @@
 import { useState } from "preact/hooks";
 import { html } from "../utils.js";
+import Microphone from "./Microphone.js";
 import PianoRoll from "./PianoRoll.js";
 import SelectNote from "./SelectNote.js";
 
 const components = {
+  microphone: Microphone,
   piano: PianoRoll,
   note: SelectNote,
 };
 
 export default function Guess(props) {
-  const [type, setType] = useState("note");
+  const [type, setType] = useState("microphone");
   const Selected = components[type];
 
   return html`
-    <div class="mx-auto">
+    <div class="center">
       <div class="cluster mb-0">
         <p>Select input</p>
-        <button onClick=${() => setType("piano")}>Piano</button>
-        <button onClick=${() => setType("note")}>Note</button>
+        ${Object.keys(components).map(
+          (key) =>
+            html`<button
+              aria-pressed="${type === key}"
+              onClick=${() => setType(key)}
+            >
+              ${key}
+            </button>`,
+        )}
       </div>
       <${Selected} ...${props} />
     </div>
