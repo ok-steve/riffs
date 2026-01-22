@@ -1,3 +1,8 @@
+button[aria-pressed="true"] {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+}
+
 .center {
   --center-size: 900px;
 }
