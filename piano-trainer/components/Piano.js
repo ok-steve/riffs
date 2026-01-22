@@ -2,7 +2,7 @@ import { useEffect, useRef } from "preact/hooks";
 import Nexus from "nexusui";
 import { html } from "../utils.js";
 
-export default function PianoRoll({ onChange }) {
+export default function Piano({ onChange }) {
   const ref = useRef(null);
 
   useEffect(() => {
@@ -21,5 +21,5 @@ export default function PianoRoll({ onChange }) {
     }
   }, []);
 
-  return html`<div class="piano-roll" ref=${ref}><//>`;
+  return html`<div class="piano" ref=${ref}><//>`;
 }

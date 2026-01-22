@@ -1,35 +1,21 @@
-import { useEffect, useRef } from "preact/hooks";
-import abcjs from "abcjs";
-import { html, coinToss, midiToAbcNote } from "../utils.js";
+import { html } from "../utils.js";
 
-function createAbc(number) {
-  const note = midiToAbcNote(number);
-  const isTreble = number === 60 ? coinToss() : number >= 60;
-  const treble = isTreble ? note : "z";
-  const bass = !isTreble ? note : "z";
+export default function Note({ answer, onChange }) {
+  const guessNote = (guess) => {
+    const octave = Math.floor(answer / 12);
+    const note = 12 * octave + guess;
+    onChange(note);
+  };
 
-  return `
-    X: 1
-    L: 1/1
-    %%score {V1 V2}
-    [V:V1] ${treble} |]
-    [V:V2 clef=bass] ${bass} |]
+  return html`
+    <div class="cluster">
+      <button onClick=${() => guessNote(0)}>C</button>
+      <button onClick=${() => guessNote(2)}>D</button>
+      <button onClick=${() => guessNote(4)}>E</button>
+      <button onClick=${() => guessNote(5)}>F</button>
+      <button onClick=${() => guessNote(7)}>G</button>
+      <button onClick=${() => guessNote(9)}>A</button>
+      <button onClick=${() => guessNote(11)}>B</button>
+    </div>
   `;
-}
-
-export default function Note({ number }) {
-  const ref = useRef(null);
-
-  useEffect(() => {
-    if (ref.current) {
-      const abc = createAbc(number);
-
-      abcjs.renderAbc(ref.current, abc, {
-        add_classes: true,
-        staffwidth: 100,
-      });
-    }
-  }, [number]);
-
-  return html`<div ref=${ref}><//>`;
 }

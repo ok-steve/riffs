@@ -1,13 +1,13 @@
 import { useState } from "preact/hooks";
 import { html } from "../utils.js";
 import Microphone from "./Microphone.js";
-import PianoRoll from "./PianoRoll.js";
-import SelectNote from "./SelectNote.js";
+import Piano from "./Piano.js";
+import Note from "./Note.js";
 
 const components = {
   microphone: Microphone,
-  piano: PianoRoll,
-  note: SelectNote,
+  piano: Piano,
+  note: Note,
 };
 
 export default function Guess(props) {

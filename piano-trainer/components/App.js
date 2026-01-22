@@ -1,6 +1,6 @@
 import { useState } from "preact/hooks";
 import { html, pick } from "../utils.js";
-import Note from "./Note.js";
+import Music from "./Music.js";
 import Guess from "./Guess.js";
 import Result from "./Result.js";
 
@@ -24,8 +24,8 @@ export default function App() {
 
   return html`
     <div class="cluster" style="--cluster-justify: center;">
-      <${Note} number=${note} />
-      <${Note} number=${guess} />
+      <${Music} number=${note} />
+      <${Music} number=${guess} />
     <//>
     <${Result} answer=${note} guess=${guess} />
     <button class="mx-auto" onClick=${updateNote}>New Note<//>
