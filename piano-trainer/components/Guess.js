@@ -1,8 +1,10 @@
 import { useState } from "preact/hooks";
+import { lazy, Suspense } from "preact/compat";
 import { html } from "../utils.js";
-import Microphone from "./Microphone.js";
-import Piano from "./Piano.js";
-import Note from "./Note.js";
+
+const Microphone = lazy(() => import("./Microphone.js"));
+const Piano = lazy(() => import("./Piano.js"));
+const Note = lazy(() => import("./Note.js"));
 
 const components = {
   microphone: Microphone,
@@ -28,7 +30,9 @@ export default function Guess(props) {
             </button>`,
         )}
       </div>
-      <${Selected} ...${props} />
+      <${Suspense}>
+        <${Selected} ...${props} />
+      <//>
     </div>
   `;
 }
