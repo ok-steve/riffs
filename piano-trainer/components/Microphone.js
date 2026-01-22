@@ -7,7 +7,6 @@ const audioContext = new (window.AudioContext || window.webkitAudioContext)();
 async function getMicrophoneAccess() {
   try {
     const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-    audioContext.start();
     return stream;
   } catch (err) {
     console.error("Microphone access denied:", err);
@@ -25,6 +24,10 @@ async function getAnalyzer(stream) {
   return analyser;
 }
 
+const detectPitch = Pitchfinder.YIN({
+  sampleRate: audioContext.sampleRate,
+});
+
 async function analyze(callback) {
   const analyzer = await getAnalyzer(await getMicrophoneAccess());
   const bufferLength = analyzer.fftSize;
@@ -33,15 +36,13 @@ async function analyze(callback) {
   function pitchDetect() {
     analyzer.getFloatTimeDomainData(dataArray);
 
-    const detectPitch = Pitchfinder.YIN({
-      sampleRate: audioContext.sampleRate,
-    });
-
-    const pitch = detectPitch(float32Array);
+    const pitch = detectPitch(dataArray);
     // If pitch is detected, convert to MIDI note number, else null.
-    callback(pitch ? Math.round(ftom(pitch)) : null);
+    if (pitch) {
+      callback(Math.round(ftom(pitch)));
+    }
 
-    requestAnimationFrame(detectPitch);
+    requestAnimationFrame(pitchDetect);
   }
 
   pitchDetect();
@@ -49,6 +50,12 @@ async function analyze(callback) {
 
 export default function Microphone({ onChange }) {
   const [isListening, setIsListening] = useState(false);
+
+  useEffect(() => {
+    if (audioContext.state !== "running") {
+      audioContext.resume();
+    }
+  }, []);
 
   useEffect(() => {
     if (isListening) {
