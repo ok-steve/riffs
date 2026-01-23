@@ -24,7 +24,7 @@ async function getAnalyzer(stream) {
   return analyser;
 }
 
-const detectPitch = Pitchfinder.YIN({
+const detectPitch = Pitchfinder.AMDF({
   sampleRate: audioContext.sampleRate,
 });
 
@@ -37,6 +37,7 @@ async function analyze(callback) {
     analyzer.getFloatTimeDomainData(dataArray);
 
     const pitch = detectPitch(dataArray);
+
     // If pitch is detected, convert to MIDI note number, else null.
     if (pitch) {
       callback(Math.round(ftom(pitch)));
@@ -58,9 +59,11 @@ export default function Microphone({ onChange }) {
   }, []);
 
   useEffect(() => {
-    if (isListening) {
-      analyze(onChange);
-    }
+    analyze((note) => {
+      if (isListening) {
+        onChange(note);
+      }
+    });
   }, [isListening]);
 
   return html`
