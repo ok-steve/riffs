@@ -40,7 +40,7 @@ async function analyze(callback) {
 
     // If pitch is detected, convert to MIDI note number, else null.
     if (pitch) {
-      callback(Math.round(ftom(pitch)));
+      callback(Math.floor(ftom(pitch)));
     }
 
     requestAnimationFrame(pitchDetect);
