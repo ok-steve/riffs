@@ -16,10 +16,30 @@ async function getMicrophoneAccess() {
 
 async function getAnalyzer(stream) {
   const source = audioContext.createMediaStreamSource(stream);
-  const analyser = audioContext.createAnalyser();
+  const analyser = new AnalyserNode(audioContext, {
+    fftSize: 2048,
+  });
+  const lpFilter = new BiquadFilterNode(audioContext, {
+    frequency: 4200,
+  });
+  const hpFilter = new BiquadFilterNode(audioContext, {
+    type: "highpass",
+    frequency: 26,
+  });
+  const compressor = new DynamicsCompressorNode(audioContext, {
+    threshold: -50,
+    knee: 40,
+    ratio: 12,
+    reduction: -20,
+    attack: 0,
+    release: 0.25,
+  });
 
-  analyser.fftSize = 2048;
-  source.connect(analyser);
+  source
+    .connect(lpFilter)
+    .connect(hpFilter)
+    .connect(compressor)
+    .connect(analyser);
 
   return analyser;
 }
