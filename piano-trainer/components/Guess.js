@@ -17,8 +17,8 @@ export default function Guess(props) {
   const Selected = components[type];
 
   return html`
-    <div class="center">
-      <div class="cluster mb-0">
+    <div class="center stack">
+      <div class="cluster">
         <p>Select input</p>
         ${Object.keys(components).map(
           (key) =>
